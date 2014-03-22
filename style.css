@@ -16,9 +16,11 @@ a {
 
 .first-name {
   color: #fff;
+  letter-spacing: normal;
 }
 .last-name {
   color: #99ff33;
+  letter-spacing: normal;
 }
 
 .icon {
@@ -100,7 +102,20 @@ a {
 .pure-g-r img {
   max-width: 100%;
 }
-
+@media (min-width:200px) {
+  .name { font-size: 10vw; }
+  .icon { 
+    font-size: 17vw;
+    margin-bottom: 3vh;
+  }
+}
+@media (min-width:300px) {
+  .name { font-size: 10vw; }
+  .icon { 
+    font-size: 17vw;
+    margin-bottom: 5vh;
+  }
+}
 @media (min-width:400px) {
   .name { font-size: 9vw; }
   .icon { 
