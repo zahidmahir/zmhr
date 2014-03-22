@@ -1,0 +1,45 @@
+ZAHID MAHIR
+144-14 Barclay Avenue  Flushing, NY 11355
+917.683.0366 - zahid@zmhr.me - github.com/zahidmahir/
+
+EDUCATION 
+Pace University, New York, NY  Expected graduation May 2014
+Bachelor of Science in Computer Science
+Minor in Mathematics
+Dean's List, Seidenberg Scholar
+
+SKILLS 
+Databases:  MySQL, Redis, CouchDB, MongoDB, DynamoDB
+Frameworks:  CakePHP, ExpressJS, Drupal
+Platforms:  NodeJS
+Programming Languages:  Java, JavaScript, PHP
+Services:  Amazon Web Services, OpenLayers
+Tools:  Git, Mercurial, Eclipse
+
+EXPERIENCE
+Engineer - Elephant Ventures, New York City, NY  September 2013 - Present
+  Assessed and developed websites and applications for multiple clients using Drupal
+  Set up virtual environments using Vagrant and Amazon Web Services
+
+Developer - SapientNitro, New York, NY  February 2013 - September 2013
+  Designed and developed a backend cache system for our internal web services using Redis and NodeJS
+  Developed an automated quality assurance testing tool using NodeJS, PhantomJS and ImageMagick
+  Developed data visualization tools using D3JS
+
+Developer - Seidenberg Creative Labs, New York, NY  June 2011 - December 2013
+  Managed and developed web applications for outside clients
+  Worked closely with clients to gather and build requirements and design applications
+  Developed several web applications: 
+    System to display pending legislation online for the public to comment on and edit. 
+    System to assist in generating pharmaceutical drug licenses. 
+    A prototype for a universal tagging system for web sites
+
+Intern - Valassis Communications Inc., Livonia, MI  May 2012 - July 2013
+  Developed a real time tracking system for company sales using NodeJS
+  Built a system which generates customer profiles based on purchase history
+  Contributed to an internal tool that monitored the internal resource infrastructure provided by Amazon Web Services 
+
+PERSONAL
+I enjoy the outdoors with activities such as running and camping. I also love participating in hackathons and have placed first in several. I enjoy studying algorithms, automating processes and implementing concurrency.
+
+Fluent in Farsi and currently learning Spanish
