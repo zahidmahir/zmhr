@@ -11,6 +11,7 @@ a {
 }
 .name {
   font-size: 6.5vw;
+  margin-bottom: 8vh;
 }
 
 .first-name {
@@ -100,65 +101,68 @@ a {
   max-width: 100%;
 }
 
-@media (max-width:400px) {
+@media (min-width:400px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 17vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:500px) {
+@media (min-width:500px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 16vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:600px) {
+@media (min-width:600px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 15vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:700px) {
+@media (min-width:700px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 14vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:800px) {
+@media (min-width:800px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 13vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:900px) {
+@media (min-width:900px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 13vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:1000px) {
+@media (min-width:1000px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 12vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:1100px) {
+@media (min-width:1100px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 11vw;
+    margin-bottom: 5vh;
   }
 }
-@media (max-width:1200px) {
+@media (min-width:1200px) {
   .name { font-size: 9vw; }
   .icon { 
-    font-size: 6.5vw;
+    font-size: 12vw;
+    margin-bottom: 5vh;
   }
-}
-@media (min-width:1201px) {
-  .name { font-size: 9vw; }
-  .icon { 
-    font-size: 6.5vw;
-  } 
 }
 
 /* icon shit */
