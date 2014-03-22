@@ -1,26 +1,31 @@
 body {
   margin-top: 10%;
-  background: #333;
+  background: #252323;
   font-family: 'Courier';
-  color: #fff;
-  /*margin: 0;*/
 }
 div {
   text-align: center;
 }
 a {
-  color: #fff;
   text-decoration: none !important;
 }
 .name {
-  font-size: 72px;
-  margin-bottom: 5%;
-}
-.social {
-  height : 40px;
-  font-size: 18px;
+  font-size: 6.5vw;
 }
 
+.first-name {
+  color: #fff;
+}
+.last-name {
+  color: #99ff33;
+}
+
+.icon {
+  font-size: 80px;
+}
+.icon a {
+  color: #585858;
+}
 
 .pure-g {
   letter-spacing: -0.31em;
@@ -95,40 +100,97 @@ a {
   max-width: 100%;
 }
 
-@media (min-width:980px) {
-  .pure-visible-phone     { display: none; }
-  .pure-visible-tablet    { display: none; }
-  .pure-visible-desktop   { }
-  .pure-hidden-phone      { }
-  .pure-hidden-tablet     { }
-  .pure-hidden-desktop    { display: none; }
-}
-
-@media (max-width:480px) {
-  .pure-g-r > [class ^= "pure-u"] {
-    width:100%;
-  }
-  .name {
-    font-size: 20px;
+@media (max-width:400px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
   }
 }
-
-@media (max-width:767px) {
-  .name {
-    font-size: 48px;
+@media (max-width:500px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
   }
-  .pure-g-r > [class ^= "pure-u"] {
-    width:100%;
+}
+@media (max-width:600px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (max-width:700px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (max-width:800px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (max-width:900px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (max-width:1000px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (max-width:1100px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (max-width:1200px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
+  }
+}
+@media (min-width:1201px) {
+  .name { font-size: 9vw; }
+  .icon { 
+    font-size: 6.5vw;
   } 
-  .pure-visible-phone     { } 
-  .pure-hidden-phone      { display: none; }
-  .pure-hidden-desktop    { }
-  .pure-visible-desktop   { display: none; }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
-  .pure-visible-tablet    {}
-  .pure-hidden-tablet     { display: none; }
-  .pure-hidden-desktop    {}
-  .pure-visible-desktop   { display: none; }
+/* icon shit */
+@font-face {
+  font-family: 'Mono Social Icons Font';
+  src: url('MonoSocialIconsFont-1.10.eot');
+  src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+        url('MonoSocialIconsFont-1.10.woff') format('woff'),
+        url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+        url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+  src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+.symbol, a.symbol:before {
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+a.symbol:before {
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 130%;
+}
+      
