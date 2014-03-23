@@ -4,8 +4,8 @@
 		<title>zmhr</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="style.css">
-		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="css/style.css">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 	</head>
 	<body>
 		<div class="pure-g-r">
@@ -32,11 +32,24 @@
 				</div>
 				<div class="pure-u-1-4">
 					<span class="symbol icon">
-						<a href="resume.pdf">&#xe201;</a>
+						<a href="assets/resume.pdf">&#xe201;</a>
 					</span>
 				</div>
 			</div>
-		</div>
-		<source id="wo-ogg" src="wo.ogg" type="audio/ogg; codecs=vorbis">
+		</div> 
+		<audio id="woa" src="audio/woa.wav" preload="auto"></audio>
+		<audio id="woa2" src="audio/woa2.wav" preload="auto"></audio>
+		<audio id="woa3" src="audio/woa3.wav" preload="auto"></audio>
+		<script type="text/javascript">
+			window.onresize = function() {
+				var rand = Math.ceil(Math.random() * 3) - 1;
+				var clips = [
+					document.getElementById('woa'), 
+					document.getElementById('woa2'), 
+					document.getElementById('woa3')
+				];
+				clips[rand].play();
+			}
+		</script>
 	</body>
 </html>

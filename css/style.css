@@ -11,9 +11,8 @@ a {
 }
 .name {
   font-size: 6.5vw;
-  margin-bottom: 8vh;
+  margin-bottom: 8vw;
 }
-
 .first-name {
   color: #fff;
   letter-spacing: normal;
@@ -22,36 +21,23 @@ a {
   color: #99ff33;
   letter-spacing: normal;
 }
-
 .icon {
   font-size: 80px;
 }
 .icon a {
   color: #585858;
 }
-
 .pure-g {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
   *word-spacing: -0.43em;
   text-rendering: optimizespeed;
 }
-
 .opera-only :-o-prefocus,
 .pure-g {
   word-spacing: -0.43em;
 }
-
-.pure-u {
-  display: inline-block;
-  zoom: 1; *display: inline;
-  letter-spacing: normal;
-  word-spacing: normal;
-  vertical-align: top;
-  text-rendering: auto;
-}
-
-.pure-u-1,.pure-u-1-2,.pure-u-1-3,.pure-u-2-3,.pure-u-1-4 {
+.pure-u-1-4 {
   display: inline-block;
   zoom: 1; *display: inline; 
   letter-spacing: normal;
@@ -59,125 +45,115 @@ a {
   vertical-align: top;
   text-rendering: auto;
 }
-
-.pure-u-1 {
-  display:block;
-}
-
-.pure-u-1-2 {
-  width: 50%;
-}
-
-.pure-offset-1-2 {
-  margin-left: 50%;
-}
-
-.pure-u-1-3 {
-  width: 33.33333%;
-}
-
 .pure-u-1-4 {
   width: 25%;
 }
-
-.pure-offset-1-3 {
-  margin-left: 33.33333%;
-}
-
-.pure-u-2-3 {
-  width: 66.66667%;
-}
-
-.pure-offset-2-3 {
-  margin-left: 66.66667%;
-}
-
 .pure-g-r {
   letter-spacing: -0.2em; 
   *letter-spacing: normal; 
   word-spacing: -0.43em; 
 }
-
 .opera-only :-o-prefocus,
 .pure-g-r {
   word-spacing: -0.43em;
 }
-
 .pure-g-r img {
   max-width: 100%;
 }
 @media (min-width:200px) {
-  .name { font-size: 10vw; }
+  .name {
+    font-size: 10vw;
+  }
   .icon { 
     font-size: 17vw;
-    margin-bottom: 3vh;
+    margin-bottom: 3vw;
   }
 }
 @media (min-width:300px) {
-  .name { font-size: 10vw; }
+  .name {
+    font-size: 10vw;
+  }
   .icon { 
     font-size: 17vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:400px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 17vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:500px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 16vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:600px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 15vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:700px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 14vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:800px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 13vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:900px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 13vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:1000px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 12vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:1100px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 11vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vw;
   }
 }
 @media (min-width:1200px) {
-  .name { font-size: 9vw; }
+  .name {
+    font-size: 9vw;
+  }
   .icon { 
     font-size: 12vw;
     margin-bottom: 5vh;
