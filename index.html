@@ -37,19 +37,5 @@
 				</div>
 			</div>
 		</div> 
-		<audio id="woa" src="audio/woa.wav" preload="auto"></audio>
-		<audio id="woa2" src="audio/woa2.wav" preload="auto"></audio>
-		<audio id="woa3" src="audio/woa3.wav" preload="auto"></audio>
-		<script type="text/javascript">
-			window.onresize = function() {
-				var rand = Math.ceil(Math.random() * 3) - 1;
-				var clips = [
-					document.getElementById('woa'), 
-					document.getElementById('woa2'), 
-					document.getElementById('woa3')
-				];
-				clips[rand].play();
-			}
-		</script>
 	</body>
 </html>
